@@ -1,0 +1,28 @@
+.order-list-container {
+    overflow: auto;
+    max-height: 500px;
+    margin: 50px 0;
+}
+
+
+.order-list-detail__state {
+    margin: 50px 0;
+    color: #1F8294;
+}
+
+
+.order-list__confirmed-tag {
+    margin: 50px 0;
+    color: #BA4B4E;
+}
+
+
+.order-list-detail__receiver, .order-list-detail__product {
+    color: #A0A0A0;
+}
+
+
+.order-list-detail__price {
+    font-size: 20px;
+    color: #BA4B4E;
+}

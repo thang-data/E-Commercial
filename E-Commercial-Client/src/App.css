@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    font-size: 17px;    
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn--hover:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.white-btn {
+    border: solid 1px #D8D8D8;    
+}
+.white-btn--hover:hover {
+    background-color: #F8F8F8;
+}
+
+
+.yellow-btn {        
+    font-weight: bold;  
+    background-image: linear-gradient(to bottom, #F8E2AE, #F6DD9F, #F7DC9C, #F6DB99, #F5D995, #F6D993, #F5D88F, #F5D68C, #F5D689, #F4D586);
+    border: solid 1px #B5B5B5;   
+}
+
+
+.gray-btn {
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, #F8F8FA, #F6F7F9, #F5F7F9, #F5F6F8, #F4F5F8, #F3F5F7, #F2F4F6, #F2F3F5, #F1F2F5, #F0F2F4);
+    border: solid 1px #DEE0E3;
+}
+
+
+.yellow-btn, .gray-btn {
+    width: 100px;
+}
+
+
+.txt-btn {
+    color: #1F8294;
+    cursor: pointer;
+}
+.txt-btn-underline--hover:hover {
+    text-decoration: underline;
+}
+.txt-btn-paler--hover:hover {
+    color: #C0C0C0;
+}
+
+
+.select {
+    width: 100%;
+}
+
+
+.input, .select {
+    overflow: hidden;
+    text-overflow: ellipsis;  
+    white-space: nowrap;
+    background-color: #FFFFFF;   
+}
+
+
+.input-with-border {
+    border: solid 1px #D8D8D8;    
+    border-radius: 5px;
+}
+
+
+.input-none-border {
+    border: none;
+    border-bottom: solid 1px #D8D8D8;
+    border-radius: 0px;
+}
+
+
+.input-none-border--focus:focus {
+    outline: none;
+    border: none;
+    border-bottom: solid 1px #00FF00;
+    border-radius: 0;
+}
+
+
+.input-with-border--focus:focus {
+    outline: none;
+}
+
+
+.callout-link {
+    text-decoration: none;
+}
+.callout-link--hover:hover {
+    text-decoration: underline;
+}
+
+
+.waiting-image {
+    margin: 300px 300px;    
+}
+
+
+.notification {
+    margin: 50px 200px;    
+    padding: 30px 50px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.notification__title {
+    font-size: 25px;
+}
+
+
+.notification__content {
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+
+.horizontal-line {
+    height: 1px;
+    background-color: #D8D8D8;
+    border: none;
+}
+
+
+.loading-icon {
+    margin-top: 13px;
+    text-align: center;
+    color:#A0A0A0;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

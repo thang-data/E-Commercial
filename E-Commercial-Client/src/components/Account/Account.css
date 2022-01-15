@@ -1,0 +1,165 @@
+.account-info-container {
+    display: flex;
+    flex-direction: row;       
+    margin: 50px 0;
+}
+
+
+.account-avatar-manager-container {
+    position: relative;
+}
+
+
+.account-avatar-uploading-output {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+
+.account-avatar__img {
+    width: 150px;
+    height: 150px;        
+    margin: 15px 50px 50px 0;
+    border-radius: 50%;
+}
+
+
+.account-avatar-uploading__cancel-btn {
+    position: absolute;
+    top: -5px;
+    left: 0;    
+    color: #B8B8B8;
+    cursor: pointer;
+}
+.account-avatar-uploading__cancel-btn--hover:hover {
+    color: #D8D8D8;
+}
+
+
+.account-avatar__update-btn {    
+    width: 180px;
+    margin-top: 10px;           
+}
+
+
+.account-avatar__del-btn p {
+    color: #A0A0A0;
+}
+
+
+#account-avatar-uploading-input {
+    display: none;
+}
+
+
+.account-info-basic-container {
+    width: 500px;    
+}
+.account-info-basic-container p {
+    margin-top: 30px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    font-size: 17px;
+}
+
+
+.account-info-editor-container {
+    width: calc(100% - 5px);
+}
+
+
+.account-info-editor__input {
+    height: 40px;
+    width: 100%;
+    margin: 5px 0;
+    font-size: 17px;      
+}
+
+
+.account-info__edit-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.account-info__edit-btn {    
+    margin: 30px 0;  
+}
+
+
+.account-info-editor-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.account-info__change-password-btn {
+    width: 150px;
+    height: 35px;
+    margin-left: 20px;
+    font-size: 17px;    
+}
+
+.account-info__save-password-btn {
+    width: 180px;   
+}
+
+
+.account-info__cancel-change-password-btn {
+    margin-left: 20px;    
+}
+
+
+.sign-out-btn {      
+    margin: 30px 20px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .account-info-container {
+        flex-wrap: wrap;
+    }
+}
+
+
+.account-order-list__product-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.account-order-list__product-file {
+    max-width: 130px;    
+    max-height: 130px;
+    height: auto;
+}
+
+
+.account-order-list-detail__title {
+    font-size: 17px;
+    margin: 30px 160px;
+}
+
+
+.account-order-list__product-name {
+    margin: 0 30px;
+    font-size: 17px;       
+    color: #000000;
+}
+.account-order-list__product-name--hover:hover {
+    color: #1F8294;
+}
+
+
+.cancel-order-btn {
+    width: calc(100% - 190px);
+    margin: 30px 160px;
+    border: solid 1px #BA4B4E;
+}
+.cancel-order-btn p {
+    color: #BA4B4E;
+}

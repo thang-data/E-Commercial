@@ -1,0 +1,78 @@
+.home-wrapper {
+    width: 100%;
+    height: 100%;    
+    background-color: #EAEDED;
+}
+
+
+.home-welcome-container {
+    height: 1100px;
+    padding-top: 100px;
+    text-align: center;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/e-commercial-59151.appspot.com/o/assets%2Fhome%2Fhome-bg.png?alt=media&token=ef5d0a92-f2f4-4f7a-904a-84834b26d69e');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.home-welcome-container p {    
+    color: #000000;
+    font-size: 30px;    
+}
+
+
+.home-category-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -900px;            
+    padding-bottom: 100px;
+    background-color: #DAF0E4;
+}
+
+
+.home-category__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 350px;
+    height: 420px;
+    margin: 10px 10px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.home-category__item img {
+    width: 300px;
+    height: 310px;
+}
+.home-category__item p {
+    position: absolute;
+}
+
+
+.home-category-item__name {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 17px;
+}
+
+
+.home-category-item__link {
+    bottom: 0;
+    left: 25px;
+    font-size: 17px;
+    
+    cursor: pointer;
+}
+
+
+.shopping-on-category-link {
+    color: #1F8294;
+    text-decoration: none;
+}
+.shopping-on-category-link--hover:hover {
+    text-decoration: underline;
+}

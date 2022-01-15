@@ -1,0 +1,249 @@
+.selling__render-choice-btn {
+    width: 200px;
+    margin: 30px 0;
+    margin-left: 200px;    
+    border: solid 1px #A0A0A0;
+}
+.selling__render-choice-btn--hover:hover {
+    background-color: #E0E0E0;
+}
+.selling__render-choice-btn p {
+    color: #1F8294;
+}
+
+
+.selling-product-file-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 0;
+    margin-left: -20px;
+    text-align: center;
+}
+
+
+.selling__product-file, .selling__product-option {
+    margin-left: 20px;
+    max-width: 280px;
+    height: auto;
+    max-height: 280px;
+}
+
+
+.selling-category-choice-list {
+    margin-left: -100px;
+}
+
+
+.selling-category__choice {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 100px;
+}
+
+
+.selling-category__checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+
+.selling-category__name {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+
+.selling-list-container {
+    padding: 10px 0;    
+}
+.selling-list-container p {
+    font-size: 17px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+
+.selling-list__notification {
+    color: #A0A0A0;
+}
+
+
+.selling-list__product-link {
+    color: #1F8294;
+}
+
+
+.selling-list__product-info {
+    color: #A0A0A0;
+}
+
+
+.selling-list__product-description {
+    white-space: pre-wrap;
+}
+
+
+.selling-list-choice__cancel-btn {
+    transform: scale(0.7);
+    cursor: pointer;
+}
+.selling-list-choice__cancel-btn--hover:hover {
+    color: #D8D8D8;
+}
+
+
+.selling-list-option-container {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.selling-list-choice__add-btn {
+    transform: scale(1);
+    margin-left: 30px;
+    color: #A0A0A0;
+    cursor: pointer;
+}
+.selling-list-choice__add-btn--hover:hover {
+    color: #D8D8D8;
+}
+
+
+.selling-list-edit__cancel-btn {
+    margin-top: 50px;
+    margin-left: -3px;
+}
+
+
+.selling-list-product__del-btn {
+    margin-left: 20px;
+}
+
+
+.selling-submit-container, .selling-list-container {        
+    width: 100%;
+    margin: 50px 0;
+}
+
+
+.selling-submit-select-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -30px;
+}
+
+
+.selling-submit__select {
+    width: calc(50% - 30px);
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+
+.selling-submit__option {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+.selling-submit-address__title {
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+
+.selling-submit-input__title {
+    font-size: 20px;
+}
+
+
+.selling-submit-input__note {
+    font-size: 17px;
+    color:#A0A0A0;
+}
+
+
+.selling-submit__input {
+    height: 40px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+.selling-submit__edit-btn {
+    margin: 30px 0;
+}
+
+
+
+.selling-submit-product-file-list, .selling-submit-product-option-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -20px;
+}
+
+
+.selling-submit-product-file-output, .selling-submit-product-option-output {
+    position: relative;
+}
+
+
+.selling-submit-choice__cancel-btn {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    color: #B8B8B8;
+    cursor: pointer;
+}
+.selling-submit-choice__cancel-btn--hover:hover {
+    color: #D8D8D8;
+}
+
+
+#selling-submit-product-file-input {
+    display: none;
+}
+
+
+.selling-submit__product-option {        
+    border: solid 1px #D8D8D8;
+    border-radius: 5px;
+}
+.selling-submit__product-option p {
+    margin: 20px 20px;
+}
+
+
+.selling-order-list-detail__title {
+    font-size: 17px;
+    margin: 30px 0;
+}
+
+
+.selling-order-list-detail-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.selling-order-list-detail-container p {
+    margin-right: 50px;
+}
+
+
+.confirm-order-btn {
+    width: calc(100% - 20px);
+    margin: 30px 0;
+    border: solid 1px #BA4B4E;
+}
+.confirm-order-btn p {
+    color: #BA4B4E;
+}

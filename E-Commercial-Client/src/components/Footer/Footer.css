@@ -1,0 +1,15 @@
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    border-top: solid 1px #D0D0D0;
+}
+
+
+.footer__content {
+    font-size: 13px;
+    color: #A8A8A8;
+}

@@ -1,0 +1,26 @@
+.authentication__form {
+    height: 450px;    
+}
+
+
+.authentication__forgot-password-option-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.forgot-password__input {
+    margin: 80px 0;
+    font-size: 17px;
+}
+
+
+.forgot-password__submit-btn, .forgot-password__turn-back-btn, .reset-password__submit-btn {
+    width: 100%;
+}
+
+
+.forgot-password__submit-btn, .forgot-password__turn-back-btn, .reset-password__submit-btn {
+    margin-top: 20px;
+}

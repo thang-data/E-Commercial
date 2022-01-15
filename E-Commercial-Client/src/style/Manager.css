@@ -1,0 +1,36 @@
+.info-manager__vshop-name {
+    margin-left: 200px;
+    font-size: 40px;
+}
+
+
+.info-manager__vshop-icon {
+    color: #00FF00;
+}
+
+
+.info-manager-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    background-color: #EAEDED;
+}
+
+
+.info-manager-inner {
+    margin: 50px 200px;
+    padding: 30px 50px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.info-manager-inner__title {
+    font-size: 25px;
+}
+
+
+.info-manager-inner__icon {
+    transform: scale(1.3);
+    color: #4CA4CA;
+}
